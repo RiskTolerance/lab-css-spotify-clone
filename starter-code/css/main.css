@@ -1,3 +1,173 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+}
+
+.nav .navbaritems {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    padding-right: 3vw;
+}
+
+.nav .navbaritems li {
+    font-weight: bold;
+    margin-right: 3vw;
+    list-style: none;
+}
+
+.nav .navbar {
+    display: flex;
+    align-self: right;
+}
+
+.logo {
+    height: 8vh;
+    display: flex;
+    align-self: center;
+    padding-left: 2vw;
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    height: 90vh;
+    background-image: url(/starter-code/images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.splashtext {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}
+
+.splashtitle {
+    font-size: 5rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.section1 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+}
+
+.whatson {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.whatson-title {
+    height: 7vh;
+    margin-bottom:3vh;
+    border-bottom: 5px solid #00B172;
+}
+
+.whatsonbx {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+.whatsonbx-1 {
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.whatsonbx-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-top: 30PX;
+    color: #00B172;
+}
+
+.whatsonbx-txt {
+    padding-top: 30PX;
+}
+
+.whatsonbx-img {
+    height: 9vh;
+}
+
+.section2 {
+    height: 90vh;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.kanye1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.kanye1 * {
+    width: 70%;
+    font-size: 1.3rem;
+}
+
+.kanyetitleB {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+
+.kanyetitleA {
+    border-bottom: 5px solid white;
+    font-size: 2.5rem;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+}
+
+.kanyetext {
+    margin-bottom: 4%;
+}
+
+.kanye2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.kanyeimg {
+    height: 90%;
+}
 /*
 Colors:
 
